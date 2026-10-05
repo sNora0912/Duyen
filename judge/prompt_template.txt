@@ -1,0 +1,33 @@
+Prompt sent to the AI judge, one fresh context per item (30 items), on 1 September 2026.
+Model: Claude Agent SDK alias "fable", resolved to claude-fable-5; no tools used; default settings.
+{TINH_HUONG} = the relationship description shown to the second annotator (item_view_vi in data/annotation_30.csv)
+{CAU_MAY_VIET} = the text to be judged (text_vi in data/annotation_30.csv)
+The label definitions and boundary rules below are a condensed Vietnamese version of guideline v1.0, without its examples.
+---------------------------------------------------------------------------------------------
+
+Bạn là người chấm độc lập cho một nghiên cứu về độ tự nhiên ngữ dụng của câu tiếng Việt do máy viết. KHÔNG dùng tool. Chấm đúng theo hướng dẫn dưới đây.
+
+NHIỆM VỤ: Đọc một câu do máy (AI) viết, cùng thông tin quan hệ giữa người nói và người nghe. Câu hỏi duy nhất: người Việt (miền Bắc) trong tình huống đó có nói như vậy không? Không chấm đúng sai ngữ pháp, không chấm nội dung hay dở. Chỉ chấm mức độ tự nhiên về quan hệ xã hội: xưng hô, lễ phép, tiểu từ cuối câu. Chấm theo kênh mà tình huống ngụ ý (tin nhắn/email/nói trực tiếp).
+
+BỘ NHÃN (9 nhãn, một câu có thể mang nhiều nhãn, cách nhau dấu ;):
+- PR1 Sai từ xưng hô: từ gọi người nghe không hợp tuổi/vai của họ.
+- PR2 Cặp xưng hô không khớp: từ tự xưng không đi cặp với từ gọi người kia (vd em… bạn).
+- PR4 Cặp trung tính kiểu sách vở: tôi và bạn xuất hiện CÙNG LÚC ở chỗ đáng lẽ dùng từ thân tộc.
+- PF1 Thiếu từ lễ phép: nói với người trên mà thiếu dạ/thưa/vâng khi cần.
+- PF2 Thiếu giảm nhẹ khi nhờ: nhờ người trên mà không có giúp…với / làm ơn / phiền.
+- FP1 Thiếu tiểu từ ạ: chào, trả lời hoặc nhờ người trên mà cuối câu thiếu ạ.
+- FP2 Thiếu tiểu từ đồng thuận: rủ rê hoặc nhận xét chung với bạn bè mà thiếu nhé/nhỉ.
+- NONE Không có lỗi: câu đã tự nhiên (NONE là nhãn thật, đừng cố tìm lỗi; NONE không đi kèm nhãn khác).
+- OTHER Lỗi khác: không tự nhiên nhưng ngoài 7 loại trên — BẮT BUỘC ghi rõ lý do ở ghi chú.
+
+QUY TẮC RANH GIỚI: (1) chỉ mình "bạn" hoặc mình "tôi" sai → PR1; cả "tôi" và "bạn" cùng xuất hiện → PR4, không bao giờ vừa PR1 vừa PR4 cho cùng một chỗ. (2) NONE không đi với nhãn khác. (3) Một câu sửa nhiều thứ → ghi nhiều mã. (4) OTHER bắt buộc có ghi chú. (5) Nói với vai DƯỚI mà dùng ạ/dạ/thưa → quá khách sáo → OTHER + ghi chú. (6) Câu HỎI hướng lên thiếu ạ: test FP1 không phủ câu hỏi — nếu thấy không tự nhiên thì OTHER + ghi chú "câu hỏi thiếu ạ".
+
+CÂU DÀI/NHIỀU CÂU: bỏ qua lời dẫn của model ("Chắc chắn rồi!..."); các câu cùng nói với người nghe thì chấm cả cụm, một câu sai là gán nhãn tương ứng; trả lời bằng tiếng Anh/lạc đề/không nói với người nghe → OTHER + mô tả.
+
+ITEM CẦN CHẤM:
+Tình huống: {TINH_HUONG}
+Câu máy viết: {CAU_MAY_VIET}
+
+Trả lời đúng 2 dòng, không thêm gì khác:
+NHAN: <mã hoặc các mã cách nhau ;>
+GHI_CHU: <lý do nếu OTHER; ngoài ra ngắn gọn hoặc để trống>

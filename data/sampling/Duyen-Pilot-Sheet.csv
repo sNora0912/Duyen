@@ -1,0 +1,290 @@
+﻿item_id,register,relative_status,closeness,setting,utterance_type,addressee_gender,addressee_age_cue,prompt_vi_DRAFT,model,raw_output,corrected_vi,error_types,note
+H-01,workplace,higher,distant,neutral,request,nam,lớn tuổi hơn nhiều (đáng tuổi chú),Viết tin nhắn cho chú Thắng bên phòng kế toán bảo là cần gấp số liệu quý ba trong chiều nay.,"claude-sonnet (Agent SDK, 25/8/2026)","Chào chú Thắng, cháu/em cần gấp số liệu quý 3 để xử lý công việc. Chú/anh có thể gửi giúp em trong chiều nay được không ạ? Em cảm ơn chú/anh nhiều!",,,
+H-01,workplace,higher,distant,neutral,request,nam,lớn tuổi hơn nhiều (đáng tuổi chú),Viết tin nhắn cho chú Thắng bên phòng kế toán bảo là cần gấp số liệu quý ba trong chiều nay.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Cháu chào chú Thắng ạ. Chú ơi, cháu đang cần gấp số liệu của quý 3 trong chiều nay. Chú sắp xếp thời gian gửi sớm giúp cháu với nhé. Cháu cảm ơn chú nhiều ạ!",,,
+H-01,workplace,higher,distant,neutral,request,nam,lớn tuổi hơn nhiều (đáng tuổi chú),Viết tin nhắn cho chú Thắng bên phòng kế toán bảo là cần gấp số liệu quý ba trong chiều nay.,"gpt-5-codex (Codex CLI, 25/8/2026)","Chú Thắng ơi, chú gửi giúp cháu số liệu quý III trong chiều nay nhé, bên cháu đang cần gấp. Cảm ơn chú!",,,
+H-02,workplace,higher,distant,neutral,request,nữ,lớn tuổi hơn,"Viết tin nhắn nhắc người duyệt chi phí là đơn của mình đã treo ba ngày, cần được duyệt trong hôm nay.","claude-sonnet (Agent SDK, 25/8/2026)","Chào anh/chị,
+
+Em xin phép nhắc lại: đơn đề nghị thanh toán chi phí của em đã gửi lên và hiện đang treo được 3 ngày mà chưa được duyệt. Vì công việc đang cần xử lý gấp, em mong anh/chị có thể sắp xếp duyệt giúp em trong hôm nay ạ.
+
+Nếu cần bổ sung thêm thông tin hay giấy tờ gì, anh/chị cứ báo em để em gửi ngay.
+
+Em cảm ơn anh/chị nhiều!",,,
+H-02,workplace,higher,distant,neutral,request,nữ,lớn tuổi hơn,"Viết tin nhắn nhắc người duyệt chi phí là đơn của mình đã treo ba ngày, cần được duyệt trong hôm nay.","gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dưới đây là một số mẫu tin nhắn bạn có thể sử dụng (tuỳ thuộc vào mức độ thân thiết với người duyệt):
+
+**Mẫu 1: Lịch sự, chuyên nghiệp (Dùng chung cho đa số trường hợp)**
+""Chào [Anh/Chị Tên],
+Nhờ [anh/chị] kiểm tra và duyệt giúp [em/mình] đơn yêu cầu chi phí [Mã/Tên đơn] trên hệ thống nhé. Đơn này của [em/mình] đã gửi được 3 ngày rồi, mong [anh/chị] hỗ trợ duyệt giúp trong hôm nay để [em/mình] kịp làm thủ tục thanh toán.
+[Em/Mình] cảm ơn [anh/chị] nhiều!""
+
+**Mẫu 2: Gần gũi, mềm mỏng hơn**
+""Dạ em chào [anh/chị Tên], [anh/chị] xem duyệt giúp em đơn chi phí [Mã/Tên đơn] với nhé ạ. Đơn của em đang treo 3 ngày nay rồi, nhờ [anh/chị] hỗ trợ duyệt giúp em trong hôm nay để em kịp xử lý công việc tiếp theo nha. Em cảm ơn [anh/chị] nhiều ạ!""
+
+**Mẫu 3: Ngắn gọn**
+""Chào [Anh/Chị Tên], nhờ [anh/chị] duyệt giúp [em/mình] đơn chi phí [Mã/Tên đơn] nhé. Đơn đã gửi 3 ngày, [anh/chị] cố gắng hỗ trợ duyệt giúp [em/mình] trong hôm nay nha. Cảm ơn [anh/chị]!""
+
+Bạn nhớ thay các thông tin trong ngoặc vuông `[...]` cho phù hợp với thực tế nhé!",,,
+H-02,workplace,higher,distant,neutral,request,nữ,lớn tuổi hơn,"Viết tin nhắn nhắc người duyệt chi phí là đơn của mình đã treo ba ngày, cần được duyệt trong hôm nay.","gpt-5-codex (Codex CLI, 25/8/2026)","Chào anh/chị, đề nghị duyệt chi phí của em đã treo ba ngày. Nhờ anh/chị hỗ trợ xem xét và phê duyệt trong hôm nay giúp em. Em cảm ơn anh/chị!",,,
+H-03,family,higher,intimate,casual,statement,nữ,lớn tuổi hơn nhiều (mẹ của người nói),"Viết tin nhắn từ chối khéo khi mẹ giục về quê cuối tuần này, lý do là bận deadline.","claude-sonnet (Agent SDK, 25/8/2026)","Chào mẹ, con biết cuối tuần này về quê mẹ vui lắm mà con cũng nhớ nhà lắm, nhưng con đang bị dí deadline gấp quá mẹ ơi, chưa xong việc là con không yên tâm về được đâu. Con xin phép cuối tuần này con ở lại giải quyết cho xong, cuối tuần sau con sắp xếp về thăm mẹ bù nha. Mẹ đừng buồn, con vẫn gọi điện thường xuyên mà!",,,
+H-03,family,higher,intimate,casual,statement,nữ,lớn tuổi hơn nhiều (mẹ của người nói),"Viết tin nhắn từ chối khéo khi mẹ giục về quê cuối tuần này, lý do là bận deadline.","gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dưới đây là một vài mẫu tin nhắn từ chối khéo nhẹ nhàng, tình cảm để bạn gửi cho mẹ:
+
+**Mẫu 1 (Ngắn gọn, tình cảm):**
+""Mẹ ơi, cuối tuần này con bận chạy deadline gấp trên công ty nên chắc không về quê được rồi ạ. Con tiếc lắm, mẹ và cả nhà ăn cuối tuần vui vẻ nhé. Xong việc con sẽ sắp xếp về thăm mẹ nha!""
+
+**Mẫu 2 (Thành khẩn, hứa hẹn):**
+""Dạ mẹ, cuối tuần này con đang kẹt mấy cái deadline quan trọng quá nên phải ở lại làm cho xong, chắc con chưa về nhà được rồi mẹ ạ. Hẹn mẹ dịp gần nhất làm xong việc con về bù nhé. Mẹ ở nhà nhớ giữ gìn sức khỏe nha!""
+
+**Mẫu 3 (Nhẹ nhàng, dỗ dành):**
+""Mẹ iu ơi, cuối tuần này con định về mà lại vướng cái deadline gấp quá nên đành phải ở lại cày rồi ạ. Mẹ đừng buồn nha, đợi đợt tới rảnh rỗi hơn con về chơi với mẹ lâu hơn nhé!""
+
+Bạn có thể tùy chỉnh lại một chút cho phù hợp với cách nói chuyện hàng ngày của hai mẹ con nhé!",,,
+H-03,family,higher,intimate,casual,statement,nữ,lớn tuổi hơn nhiều (mẹ của người nói),"Viết tin nhắn từ chối khéo khi mẹ giục về quê cuối tuần này, lý do là bận deadline.","gpt-5-codex (Codex CLI, 25/8/2026)","Mẹ ơi, cuối tuần này con đang chạy deadline gấp nên chưa về quê được. Con cũng nhớ nhà lắm, mẹ thông cảm cho con nhé. Xong việc con sẽ sắp xếp về thăm mẹ sớm ạ.",,,
+H-04,workplace,higher,familiar,neutral,request,nam,trẻ hơn người nói (nhưng là sếp trực tiếp),Sếp trực tiếp của mình kém mình năm tuổi. Viết tin nhắn xin sếp duyệt cho nghỉ phép thứ Sáu.,"claude-sonnet (Agent SDK, 25/8/2026)","Chào Sếp,
+
+Em xin phép được nghỉ phép vào thứ Sáu tuần này ạ. Trước khi nghỉ em sẽ sắp xếp bàn giao công việc đầy đủ để không ảnh hưởng đến tiến độ chung. Em cảm ơn Sếp và mong Sếp duyệt giúp em ạ!",,,
+H-04,workplace,higher,familiar,neutral,request,nam,trẻ hơn người nói (nhưng là sếp trực tiếp),Sếp trực tiếp của mình kém mình năm tuổi. Viết tin nhắn xin sếp duyệt cho nghỉ phép thứ Sáu.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dưới đây là một số mẫu tin nhắn vừa giữ được sự tôn trọng với cấp trên, vừa phù hợp với vai vế tuổi tác (bạn xưng ""anh/chị"" và gọi sếp là ""Sếp"" hoặc tên riêng):
+
+**Mẫu 1: Gọn gàng, thân thiện (Thường dùng qua Zalo, Slack, Teams)**
+> ""Sếp ơi, thứ Sáu tuần này cho anh/chị xin phép nghỉ 1 ngày để giải quyết chút việc cá nhân nhé. Công việc hiện tại anh/chị đã sắp xếp ổn thỏa cả rồi. Sếp xem duyệt giúp anh/chị nha. Cảm ơn sếp!""
+
+**Mẫu 2: Chi tiết hơn (Nếu cần bàn giao công việc)**
+> ""Chào [Tên sếp], thứ Sáu tuần này cho anh/chị xin nghỉ phép một ngày nhé. Các đầu việc trong ngày anh/chị đã xử lý xong và nhờ [Tên đồng nghiệp] hỗ trợ theo dõi thêm nếu có phát sinh. [Tên sếp] duyệt phép giúp anh/chị nhé. Cảm ơn em!""
+
+*Lưu ý: Bạn nhớ chọn nhân xưng ""anh"" hoặc ""chị"" cho phù hợp với mình nhé.*",,,
+H-04,workplace,higher,familiar,neutral,request,nam,trẻ hơn người nói (nhưng là sếp trực tiếp),Sếp trực tiếp của mình kém mình năm tuổi. Viết tin nhắn xin sếp duyệt cho nghỉ phép thứ Sáu.,"gpt-5-codex (Codex CLI, 25/8/2026)","Sếp ơi, thứ Sáu này em có việc cá nhân nên xin phép nghỉ một ngày. Nhờ sếp xem xét và duyệt giúp em nhé. Em sẽ sắp xếp, bàn giao công việc đầy đủ trước khi nghỉ. Cảm ơn sếp!",,,
+H-05,service,higher,distant,formal,answer,nữ,trẻ hơn người nói nhiều (khách hàng),Đóng vai nhân viên ngân hàng lớn tuổi. Một khách hàng nữ trẻ tuổi phàn nàn thẻ bị khóa. Viết câu trả lời xin lỗi và hướng dẫn cách mở.,"claude-sonnet (Agent SDK, 25/8/2026)","Kính chào chị,
+
+Trước hết, tôi xin thay mặt ngân hàng gửi lời xin lỗi chân thành vì sự bất tiện mà việc thẻ bị khóa đã gây ra cho chị. Tôi hiểu điều này ảnh hưởng không nhỏ đến các giao dịch hàng ngày của chị, và tôi rất mong chị thông cảm cho sự cố ngoài ý muốn này.
+
+Để giúp chị mở khóa thẻ nhanh nhất, chị vui lòng thực hiện theo một trong các cách sau:
+
+1. **Qua tổng đài**: Gọi đến số hotline chăm sóc khách hàng in trên mặt sau thẻ (hoặc trên website chính thức của ngân hàng), cung cấp thông tin xác minh danh tính (CMND/CCCD, số thẻ, thông tin tài khoản) để nhân viên hỗ trợ mở khóa trực tiếp.
+
+2. **Qua ứng dụng ngân hàng (Mobile Banking)**: Đăng nhập ứng dụng, vào mục ""Quản lý thẻ"" > chọn thẻ bị khóa > chọn ""Mở khóa thẻ"" và làm theo hướng dẫn xác thực OTP.
+
+3. **Đến quầy giao dịch**: Nếu thẻ bị khóa do nhập sai mã PIN quá số lần quy định hoặc lý do bảo mật đặc biệt, chị nên mang theo giấy tờ tùy thân đến chi nhánh gần nhất để được hỗ trợ trực tiếp và nhanh chóng nhất.
+
+Nếu chị cho tôi biết thêm lý do thẻ bị khóa (nhập sai PIN, nghi ngờ giao dịch bất thường, hay thẻ hết hạn xác thực), tôi có thể hướng dẫn cụ thể và chính xác hơn.
+
+Một lần nữa, xin lỗi vì sự bất tiện này. Rất mong được hỗ trợ chị chu đáo nhất.
+
+Trân trọng.",,,
+H-05,service,higher,distant,formal,answer,nữ,trẻ hơn người nói nhiều (khách hàng),Đóng vai nhân viên ngân hàng lớn tuổi. Một khách hàng nữ trẻ tuổi phàn nàn thẻ bị khóa. Viết câu trả lời xin lỗi và hướng dẫn cách mở.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Chào cháu, chú thành thật xin lỗi vì thẻ của cháu đột ngột bị khóa thế này, chắc làm cháu lỡ dở bao nhiêu việc rồi đúng không? Cháu cứ bình tĩnh, đừng bực mình nhé. Đôi khi hệ thống bảo mật của ngân hàng tự động khóa lại khi nhận thấy có giao dịch hơi bất thường, cốt cũng chỉ để bảo vệ an toàn tài sản cho cháu thôi.
+
+Để chú hướng dẫn cháu cách mở lại thẻ rất nhanh nhé. Có hai cách thế này:
+
+Thứ nhất, giới trẻ các cháu bây giờ hay dùng điện thoại, cháu chỉ cần mở ứng dụng ngân hàng của mình lên. Cháu đăng nhập vào, tìm đến mục **""Quản lý thẻ""** (hoặc ""Dịch vụ thẻ""), chọn đúng cái thẻ đang bị khóa rồi bấm nút **""Mở khóa thẻ""** là hệ thống sẽ kích hoạt lại ngay lập tức.
+
+Thứ hai, nếu cháu không quen thao tác trên điện thoại hoặc app đang lỗi, cháu cứ đưa Căn cước công dân đây cho chú. Chú sẽ tra cứu trên máy tính và làm thủ tục mở khóa trực tiếp tại quầy cho cháu luôn.
+
+Cháu ngồi xuống ghế uống ngụm nước cho đỡ mệt nhé, cứ đưa giấy tờ đây chú xử lý nhoáng cái là xong ngay. Một lần nữa, chú thay mặt ngân hàng rất xin lỗi cháu vì sự bất tiện này!",,,
+H-05,service,higher,distant,formal,answer,nữ,trẻ hơn người nói nhiều (khách hàng),Đóng vai nhân viên ngân hàng lớn tuổi. Một khách hàng nữ trẻ tuổi phàn nàn thẻ bị khóa. Viết câu trả lời xin lỗi và hướng dẫn cách mở.,"gpt-5-codex (Codex CLI, 25/8/2026)","Cô rất xin lỗi vì sự bất tiện này. Thẻ có thể bị khóa do nhập sai mã PIN nhiều lần, giao dịch bất thường hoặc yêu cầu bảo mật.
+
+Cháu có thể mở khóa theo một trong các cách sau:
+
+1. Vào ứng dụng ngân hàng, chọn **Thẻ → Quản lý thẻ → Mở khóa thẻ**.
+2. Gọi số hotline chính thức in ở mặt sau thẻ để được xác minh và hỗ trợ.
+3. Nếu không mở được trực tuyến, cháu mang **CCCD/hộ chiếu và thẻ** đến chi nhánh gần nhất.
+
+Cháu tuyệt đối không cung cấp mã PIN, mật khẩu hay mã OTP cho bất kỳ ai, kể cả người tự xưng là nhân viên ngân hàng.",,,
+H-06,workplace,lower,familiar,neutral,request,nam,lớn tuổi hơn người nói (nhưng là cấp dưới),Mình là trưởng nhóm trẻ. Viết tin nhắn nhắc anh nhân viên lớn tuổi hơn nộp bản báo cáo đã trễ hai ngày.,"claude-sonnet (Agent SDK, 25/8/2026)","Chào anh [Tên anh],
+
+Em nhắn tin để nhắc anh về bản báo cáo [tên báo cáo] ạ. Hiện báo cáo đã trễ hạn 2 ngày so với deadline, anh xem giúp em có thể hoàn thiện và gửi sớm nhất có thể được không ạ?
+
+Nếu anh đang gặp khó khăn hay vướng mắc gì trong quá trình làm, anh cứ chia sẻ để em hỗ trợ thêm nhé. Em cảm ơn anh nhiều ạ!",,,
+H-06,workplace,lower,familiar,neutral,request,nam,lớn tuổi hơn người nói (nhưng là cấp dưới),Mình là trưởng nhóm trẻ. Viết tin nhắn nhắc anh nhân viên lớn tuổi hơn nộp bản báo cáo đã trễ hai ngày.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dạ anh [Tên] ơi, bản báo cáo [Tên báo cáo] theo lịch là cần nộp từ 2 ngày trước rồi ạ. Anh xem rà soát lại rồi gửi sớm giúp em trong hôm nay nhé, để em kịp tổng hợp tiến độ chung của nhóm mình. Nếu anh đang vướng mắc ở phần nào thì cứ nhắn để em hỗ trợ nha anh. Em cảm ơn anh ạ!",,,
+H-06,workplace,lower,familiar,neutral,request,nam,lớn tuổi hơn người nói (nhưng là cấp dưới),Mình là trưởng nhóm trẻ. Viết tin nhắn nhắc anh nhân viên lớn tuổi hơn nộp bản báo cáo đã trễ hai ngày.,"gpt-5-codex (Codex CLI, 25/8/2026)","Anh ơi, báo cáo đã trễ hai ngày rồi. Nhờ anh hoàn thiện và gửi giúp em trong hôm nay nhé. Nếu có vướng mắc gì, anh báo em để mình cùng xử lý. Cảm ơn anh!",,,
+H-07,workplace,higher,familiar,neutral,statement,nam,lớn tuổi hơn,"Dịch tin nhắn sau sang tiếng Việt để gửi cho anh quản lý lớn tuổi hơn: ""I think you are right, but please send me the file again.""","claude-sonnet (Agent SDK, 25/8/2026)","Chào anh, em xin phép dịch tin nhắn giúp anh như sau:
+
+""Em nghĩ là anh nói đúng, nhưng anh vui lòng gửi lại file cho em nhé.""",,,
+H-07,workplace,higher,familiar,neutral,statement,nam,lớn tuổi hơn,"Dịch tin nhắn sau sang tiếng Việt để gửi cho anh quản lý lớn tuổi hơn: ""I think you are right, but please send me the file again.""","gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Em nghĩ anh nói đúng, nhưng phiền anh gửi lại file giúp em với ạ.",,,
+H-07,workplace,higher,familiar,neutral,statement,nam,lớn tuổi hơn,"Dịch tin nhắn sau sang tiếng Việt để gửi cho anh quản lý lớn tuổi hơn: ""I think you are right, but please send me the file again.""","gpt-5-codex (Codex CLI, 25/8/2026)","Em nghĩ anh nói đúng ạ, nhưng anh vui lòng gửi lại tệp cho em nhé.",,,
+H-08,family,higher,intimate,casual,question,nữ,lớn tuổi hơn nhiều (bà của người nói đang ở quê),"Dịch sang tiếng Việt tự nhiên để nhắn cho bà: ""Have you eaten yet? I miss you.""","claude-sonnet (Agent SDK, 25/8/2026)","Bà ơi, bà ăn cơm chưa? Con nhớ bà quá.",,,
+H-08,family,higher,intimate,casual,question,nữ,lớn tuổi hơn nhiều (bà của người nói đang ở quê),"Dịch sang tiếng Việt tự nhiên để nhắn cho bà: ""Have you eaten yet? I miss you.""","gemini-3.1-pro (Antigravity CLI, 25/8/2026)",Bà ăn cơm chưa ạ? Cháu nhớ bà lắm.,,,
+H-08,family,higher,intimate,casual,question,nữ,lớn tuổi hơn nhiều (bà của người nói đang ở quê),"Dịch sang tiếng Việt tự nhiên để nhắn cho bà: ""Have you eaten yet? I miss you.""","gpt-5-codex (Codex CLI, 25/8/2026)",Bà ăn cơm chưa ạ? Con nhớ bà lắm.,,,
+H-09,workplace,higher,distant,formal,request,nam,lớn tuổi hơn nhiều,Mình đang rất bực vì bị đổ lỗi oan trong cuộc họp. Viết tin nhắn cho ông trưởng ban đề nghị một buổi nói chuyện riêng để làm rõ.,"claude-sonnet (Agent SDK, 25/8/2026)","Chào anh/chị,
+
+Em muốn xin gặp riêng anh vài phút để trao đổi về một vấn đề trong cuộc họp vừa rồi. Em cảm thấy phần trách nhiệm liên quan đến [vấn đề cụ thể] đang bị hiểu chưa đúng, và em muốn có cơ hội trình bày rõ thông tin cũng như góc nhìn của mình để tránh hiểu lầm không đáng có.
+
+Anh sắp xếp giúp em một khung giờ phù hợp trong hôm nay hoặc ngày mai được không ạ? Em cảm ơn anh nhiều.",,,
+H-09,workplace,higher,distant,formal,request,nam,lớn tuổi hơn nhiều,Mình đang rất bực vì bị đổ lỗi oan trong cuộc họp. Viết tin nhắn cho ông trưởng ban đề nghị một buổi nói chuyện riêng để làm rõ.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Chào anh,
+
+Em muốn xin anh một ít thời gian để trao đổi riêng về một số nội dung trong cuộc họp vừa qua. Em nhận thấy đang có sự hiểu lầm về vai trò và trách nhiệm của em trong sự việc lần này, dẫn đến những đánh giá chưa phản ánh đúng thực tế.
+
+Em rất mong anh có thể sắp xếp một buổi nói chuyện ngắn để em có cơ hội trình bày rõ ràng diễn biến sự việc, giúp anh có được góc nhìn đầy đủ và khách quan nhất.
+
+Anh xem lúc nào thuận tiện thì báo lịch giúp em nhé. Em cảm ơn anh.",,,
+H-09,workplace,higher,distant,formal,request,nam,lớn tuổi hơn nhiều,Mình đang rất bực vì bị đổ lỗi oan trong cuộc họp. Viết tin nhắn cho ông trưởng ban đề nghị một buổi nói chuyện riêng để làm rõ.,"gpt-5-codex (Codex CLI, 25/8/2026)","Chào anh, sau cuộc họp hôm nay, tôi cảm thấy có một số thông tin chưa phản ánh đúng sự việc và trách nhiệm của tôi. Tôi mong được trao đổi riêng với anh để làm rõ vấn đề một cách thẳng thắn, bình tĩnh và xây dựng. Anh có thể sắp xếp cho tôi một buổi nói chuyện vào thời gian thuận tiện được không? Cảm ơn anh.",,,
+H-10,school,higher,distant,formal,request,nam,lớn tuổi hơn nhiều (thầy chủ nhiệm),"Kỳ này mình học bảy môn, làm thêm hai chỗ, tuần sau thi giữa kỳ ba môn liền, deadline đồ án cũng rơi đúng tuần đó nên gần như không còn thời gian trống. Viết tin nhắn xin thầy chủ nhiệm cho dời hạn nộp đồ án thêm ba ngày.","claude-sonnet (Agent SDK, 25/8/2026)","Kính gửi Thầy,
+
+Em là [họ tên], lớp/mã lớp [........], sinh viên môn đồ án do Thầy phụ trách.
+
+Em viết tin nhắn này để xin phép Thầy cho em được gia hạn thời gian nộp đồ án thêm khoảng 3 ngày so với hạn hiện tại. Lý do là tuần tới em có lịch thi giữa kỳ của ba môn học liên tiếp nhau, đúng vào tuần deadline nộp đồ án, trong khi kỳ này em đang học 7 môn và đi làm thêm ở hai nơi nên gần như không còn thời gian trống để hoàn thiện bài cho thật kỹ lưỡng.
+
+Em xin cam kết sẽ tận dụng thời gian được gia hạn để hoàn thành đồ án với chất lượng tốt nhất, và không để việc này ảnh hưởng đến tiến độ chung của lớp. Em rất mong Thầy xem xét và tạo điều kiện giúp em.
+
+Em xin chân thành cảm ơn Thầy đã dành thời gian đọc tin nhắn này ạ.
+
+Em chào Thầy.
+[Họ tên] – [MSSV]",,,
+H-10,school,higher,distant,formal,request,nam,lớn tuổi hơn nhiều (thầy chủ nhiệm),"Kỳ này mình học bảy môn, làm thêm hai chỗ, tuần sau thi giữa kỳ ba môn liền, deadline đồ án cũng rơi đúng tuần đó nên gần như không còn thời gian trống. Viết tin nhắn xin thầy chủ nhiệm cho dời hạn nộp đồ án thêm ba ngày.","gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Em chào thầy ạ,
+
+Em là [Tên của bạn], sinh viên lớp [Tên lớp] do thầy chủ nhiệm.
+
+Em nhắn tin này kính mong thầy xem xét và tạo điều kiện cho em được dời hạn nộp đồ án môn [Tên môn] thêm 3 ngày so với quy định được không ạ.
+
+Hiện tại, kỳ này em đang học 7 môn và làm thêm ở 2 nơi. Tuần sau em lại có lịch thi giữa kỳ của 3 môn liên tiếp rơi đúng vào tuần nộp đồ án, nên em thực sự đang bị quá tải và lo lắng không thể hoàn thiện bài làm với chất lượng tốt nhất.
+
+Em rất mong thầy thông cảm cho hoàn cảnh của em và châm chước cho em lần này. Em cam kết sẽ cố gắng hết sức để hoàn thành đồ án thật chỉn chu và nộp đúng thời hạn mới nếu được thầy chấp thuận ạ.
+
+Em xin lỗi vì sự bất tiện này và cảm ơn thầy rất nhiều!",,,
+H-10,school,higher,distant,formal,request,nam,lớn tuổi hơn nhiều (thầy chủ nhiệm),"Kỳ này mình học bảy môn, làm thêm hai chỗ, tuần sau thi giữa kỳ ba môn liền, deadline đồ án cũng rơi đúng tuần đó nên gần như không còn thời gian trống. Viết tin nhắn xin thầy chủ nhiệm cho dời hạn nộp đồ án thêm ba ngày.","gpt-5-codex (Codex CLI, 25/8/2026)","Thưa thầy, tuần sau em có lịch thi giữa kỳ ba môn liên tiếp, đồng thời phải cân đối lịch học và làm thêm nên em lo không thể hoàn thành đồ án đúng hạn với chất lượng tốt. Em xin phép thầy cho em được gia hạn nộp đồ án thêm ba ngày. Em cam kết sẽ hoàn thành và nộp đầy đủ trong thời gian được gia hạn. Mong thầy xem xét và thông cảm cho em. Em cảm ơn thầy ạ.",,,
+H-11,friends,equal,intimate,casual,statement,nữ,cùng tuổi (bạn thân từ thời cấp ba),Viết tin nhắn góp ý thẳng cho cô bạn thân rằng bài thuyết trình hôm nay của cậu ấy khá lan man.,"claude-sonnet (Agent SDK, 25/8/2026)","Này, tớ nói thật vì tớ quý cậu nên mới nói: bài thuyết trình hôm nay của cậu hơi bị lan man, nhiều đoạn đi hơi xa trọng tâm nên người nghe khó nắm được ý chính. Cậu chuẩn bị nội dung tốt lắm, chỉ cần cô đọng lại và bám sát dàn ý hơn là sẽ ổn ngay. Đừng giận tớ nha, tớ chỉ muốn cậu làm tốt hơn thôi 🙂",,,
+H-11,friends,equal,intimate,casual,statement,nữ,cùng tuổi (bạn thân từ thời cấp ba),Viết tin nhắn góp ý thẳng cho cô bạn thân rằng bài thuyết trình hôm nay của cậu ấy khá lan man.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Ê, tớ góp ý thẳng vụ này nha. Bài thuyết trình hôm nay của cậu hơi bị lan man và chưa đi đúng vào trọng tâm lắm. Lần sau cậu thử gạch đầu dòng và cô đọng lại các ý chính xem sao, đi thẳng vào vấn đề thì người nghe sẽ dễ theo dõi và bài nói sẽ cuốn hút hơn nhiều đó!",,,
+H-11,friends,equal,intimate,casual,statement,nữ,cùng tuổi (bạn thân từ thời cấp ba),Viết tin nhắn góp ý thẳng cho cô bạn thân rằng bài thuyết trình hôm nay của cậu ấy khá lan man.,"gpt-5-codex (Codex CLI, 25/8/2026)","Tớ góp ý thật nhé: bài thuyết trình hôm nay của cậu hơi lan man, nhiều ý chưa đi thẳng vào trọng tâm nên người nghe khó theo dõi. Nếu cậu rút gọn và sắp xếp ý rõ hơn thì bài sẽ thuyết phục hơn nhiều.",,,
+H-12,service,lower,distant,neutral,statement,nam,trẻ hơn nhiều,Đóng vai chủ quán lớn tuổi. Viết câu nhắc khéo cậu nhân viên phục vụ mới là đừng dán mắt vào điện thoại khi có khách.,"claude-sonnet (Agent SDK, 25/8/2026)","Này cậu, chú thấy dạo này khách vào cửa mà cậu cứ cắm cúi vào cái điện thoại, nhìn không được thiện cảm lắm đâu. Cậu cất giúp chú vào túi, có khách là mắt phải để ý bàn, tay chân lẹ làng lên nhé. Khách người ta không quay lại vì đồ ăn dở, mà bỏ đi vì thấy mình bị lơ đấy. Chú tin cậu làm được mà.",,,
+H-12,service,lower,distant,neutral,statement,nam,trẻ hơn nhiều,Đóng vai chủ quán lớn tuổi. Viết câu nhắc khéo cậu nhân viên phục vụ mới là đừng dán mắt vào điện thoại khi có khách.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Cháu này, lúc nào rảnh rỗi vắng khách thì cứ lấy điện thoại ra xem, chú không cấm. Nhưng đang có khách ở quán, cháu chịu khó cất tạm vào túi, đảo mắt quan sát xem khách có gọi gì không nhé. Người ta vào mà thấy nhân viên cứ cắm mặt vào màn hình là họ đánh giá quán mình không hay đâu. Ráng chú ý chút nhé cháu!",,,
+H-12,service,lower,distant,neutral,statement,nam,trẻ hơn nhiều,Đóng vai chủ quán lớn tuổi. Viết câu nhắc khéo cậu nhân viên phục vụ mới là đừng dán mắt vào điện thoại khi có khách.,"gpt-5-codex (Codex CLI, 25/8/2026)","Cháu ơi, lúc có khách thì cất điện thoại đi nhé, để ý khách một chút kẻo người ta chờ, mất vui.",,,
+N-01,workplace,higher,familiar,neutral,request,nam,lớn tuổi hơn,Viết một tin nhắn ngắn nhờ anh đồng nghiệp lớn tuổi hơn gửi lại bản báo cáo quý.,"claude-sonnet (Agent SDK, 25/8/2026)","Chào anh [Tên anh],
+
+Em có việc muốn nhờ anh: anh gửi lại giúp em bản báo cáo quý được không ạ? Em đang cần để tổng hợp gấp. Em cảm ơn anh nhiều!",,,
+N-01,workplace,higher,familiar,neutral,request,nam,lớn tuổi hơn,Viết một tin nhắn ngắn nhờ anh đồng nghiệp lớn tuổi hơn gửi lại bản báo cáo quý.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dạ em chào anh, phiền anh gửi lại giúp em bản báo cáo quý với nhé. Em cảm ơn anh ạ!",,,
+N-01,workplace,higher,familiar,neutral,request,nam,lớn tuổi hơn,Viết một tin nhắn ngắn nhờ anh đồng nghiệp lớn tuổi hơn gửi lại bản báo cáo quý.,"gpt-5-codex (Codex CLI, 25/8/2026)","Anh ơi, anh gửi lại giúp em bản báo cáo quý nhé. Em cảm ơn anh ạ!",,,
+N-02,workplace,higher,distant,formal,greeting,nam,lớn tuổi hơn nhiều (đáng tuổi ông),Viết câu chào mở đầu khi gặp ông giám đốc lớn tuổi ở công ty vào buổi sáng.,"claude-sonnet (Agent SDK, 25/8/2026)","Chào chú/anh ạ! Chú vào sớm thế ạ, chú uống cà phê chưa để em rót giúp chú?",,,
+N-02,workplace,higher,distant,formal,greeting,nam,lớn tuổi hơn nhiều (đáng tuổi ông),Viết câu chào mở đầu khi gặp ông giám đốc lớn tuổi ở công ty vào buổi sáng.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dạ, em chào Giám đốc buổi sáng ạ. Chúc Giám đốc một ngày làm việc thật hiệu quả!",,,
+N-02,workplace,higher,distant,formal,greeting,nam,lớn tuổi hơn nhiều (đáng tuổi ông),Viết câu chào mở đầu khi gặp ông giám đốc lớn tuổi ở công ty vào buổi sáng.,"gpt-5-codex (Codex CLI, 25/8/2026)",Cháu chào bác ạ! Chúc bác một buổi sáng tốt lành.,,,
+N-03,school,higher,distant,formal,question,nữ,lớn tuổi hơn,Viết câu mở đầu khi cần hỏi cô giáo một việc trong giờ nghỉ.,"claude-sonnet (Agent SDK, 25/8/2026)","Dạ thưa cô, giờ nghỉ này em có thể xin phép hỏi cô một chút được không ạ?",,,
+N-03,school,higher,distant,formal,question,nữ,lớn tuổi hơn,Viết câu mở đầu khi cần hỏi cô giáo một việc trong giờ nghỉ.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dạ em chào cô, cô có đang bận không ạ? Cho em xin phép hỏi cô một chút được không ạ?",,,
+N-03,school,higher,distant,formal,question,nữ,lớn tuổi hơn,Viết câu mở đầu khi cần hỏi cô giáo một việc trong giờ nghỉ.,"gpt-5-codex (Codex CLI, 25/8/2026)","Thưa cô, trong giờ nghỉ em có thể hỏi cô một việc được không ạ?",,,
+N-04,school,higher,familiar,neutral,answer,nam,lớn tuổi hơn,Thầy hỏi đã nộp bài chưa. Viết câu trả lời ngắn là đã nộp rồi.,"claude-sonnet (Agent SDK, 25/8/2026)","Dạ thầy, em nộp bài rồi ạ.",,,
+N-04,school,higher,familiar,neutral,answer,nam,lớn tuổi hơn,Thầy hỏi đã nộp bài chưa. Viết câu trả lời ngắn là đã nộp rồi.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dạ, em đã nộp bài rồi ạ.",,,
+N-04,school,higher,familiar,neutral,answer,nam,lớn tuổi hơn,Thầy hỏi đã nộp bài chưa. Viết câu trả lời ngắn là đã nộp rồi.,"gpt-5-codex (Codex CLI, 25/8/2026)","Dạ, em đã nộp bài rồi ạ.",,,
+N-05,family,higher,intimate,casual,question,nữ,lớn tuổi hơn nhiều (bà của người nói),Viết một tin nhắn hỏi bà đã ăn cơm chưa.,"claude-sonnet (Agent SDK, 25/8/2026)","Bà ơi, bà ăn cơm chưa ạ? Nhớ ăn uống đầy đủ nha bà, đừng để bụng đói lâu quá. Bà khỏe không ạ?",,,
+N-05,family,higher,intimate,casual,question,nữ,lớn tuổi hơn nhiều (bà của người nói),Viết một tin nhắn hỏi bà đã ăn cơm chưa.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Bà ơi, bà đã ăn cơm chưa ạ?",,,
+N-05,family,higher,intimate,casual,question,nữ,lớn tuổi hơn nhiều (bà của người nói),Viết một tin nhắn hỏi bà đã ăn cơm chưa.,"gpt-5-codex (Codex CLI, 25/8/2026)","Bà ơi, bà đã ăn cơm chưa ạ?",,,
+N-06,family,higher,intimate,casual,request,nam,lớn tuổi hơn nhiều (bố của người nói),Viết một câu nhờ bố chở đi học sáng mai.,"claude-sonnet (Agent SDK, 25/8/2026)","Bố ơi, sáng mai bố chở con đi học được không ạ?",,,
+N-06,family,higher,intimate,casual,request,nam,lớn tuổi hơn nhiều (bố của người nói),Viết một câu nhờ bố chở đi học sáng mai.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Bố ơi, sáng mai bố chở con đi học nhé!",,,
+N-06,family,higher,intimate,casual,request,nam,lớn tuổi hơn nhiều (bố của người nói),Viết một câu nhờ bố chở đi học sáng mai.,"gpt-5-codex (Codex CLI, 25/8/2026)","Bố ơi, sáng mai bố chở con đi học nhé!",,,
+N-07,service,higher,distant,neutral,answer,nam,lớn tuổi hơn nhiều (đáng tuổi bác),Đóng vai nhân viên cửa hàng. Một bác khách nam lớn tuổi hỏi còn hàng không. Viết câu trả lời là còn.,"claude-sonnet (Agent SDK, 25/8/2026)",Dạ còn hàng bác nhé! Bác cần lấy mẫu nào hay số lượng bao nhiêu để con lấy giúp bác ạ?,,,
+N-07,service,higher,distant,neutral,answer,nam,lớn tuổi hơn nhiều (đáng tuổi bác),Đóng vai nhân viên cửa hàng. Một bác khách nam lớn tuổi hỏi còn hàng không. Viết câu trả lời là còn.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dạ thưa bác, sản phẩm này bên cháu vẫn còn hàng ạ. Bác muốn lấy mấy chiếc để cháu lấy ra cho mình xem luôn ạ?",,,
+N-07,service,higher,distant,neutral,answer,nam,lớn tuổi hơn nhiều (đáng tuổi bác),Đóng vai nhân viên cửa hàng. Một bác khách nam lớn tuổi hỏi còn hàng không. Viết câu trả lời là còn.,"gpt-5-codex (Codex CLI, 25/8/2026)","Dạ, cửa hàng vẫn còn hàng bác nhé.",,,
+N-08,workplace,higher,familiar,neutral,request,nữ,lớn tuổi hơn,Viết tin nhắn nhờ chị quản lý duyệt giúp đơn xin nghỉ phép.,"claude-sonnet (Agent SDK, 25/8/2026)","Chào chị/anh,
+
+Em xin phép gửi tin nhắn nhờ chị quản lý duyệt đơn xin nghỉ phép ạ:
+
+---
+
+Chào chị [Tên chị quản lý],
+
+Em là [Tên bạn], hiện đang làm việc tại bộ phận [Tên bộ phận]. Em viết tin nhắn này để xin phép chị duyệt giúp em đơn xin nghỉ phép.
+
+Em dự kiến xin nghỉ từ ngày [ngày bắt đầu] đến ngày [ngày kết thúc], vì lý do [lý do nghỉ phép, ví dụ: việc gia đình/khám sức khỏe/nghỉ phép năm...]. Trong thời gian nghỉ, em sẽ bàn giao công việc lại cho [tên người bàn giao, nếu có] để đảm bảo công việc không bị gián đoạn.
+
+Em đã gửi đơn xin nghỉ phép qua [email/hệ thống nội bộ], mong chị xem xét và duyệt giúp em ạ. Nếu cần thêm thông tin gì, chị cứ nhắn em nhé.
+
+Em cảm ơn chị nhiều ạ!
+
+---
+
+Chị có thể điều chỉnh lại thời gian, lý do và tên người bàn giao cho phù hợp với tình huống thực tế nhé.",,,
+N-08,workplace,higher,familiar,neutral,request,nữ,lớn tuổi hơn,Viết tin nhắn nhờ chị quản lý duyệt giúp đơn xin nghỉ phép.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dưới đây là một số mẫu tin nhắn bạn có thể sử dụng (tuỳ thuộc vào mức độ thân thiết và quy định của công ty):
+
+**Mẫu 1: Ngắn gọn, thân thiện (Thường dùng qua Zalo/Chat nội bộ)**
+> Dạ em chào chị. Em vừa submit đơn xin nghỉ phép trên hệ thống, chị dành chút thời gian xem và duyệt giúp em với nhé. Em cảm ơn chị ạ!
+
+**Mẫu 2: Chi tiết hơn (Nêu rõ thời gian để quản lý dễ nắm bắt)**
+> Em chào chị ạ. Em có làm đơn xin nghỉ phép từ ngày [Ngày bắt đầu] đến ngày [Ngày kết thúc] do [Lý do ngắn gọn, VD: có việc gia đình/cần đi khám bệnh...]. Chị kiểm tra và duyệt trên hệ thống giúp em nhé. Em cảm ơn chị nhiều ạ!
+
+**Mẫu 3: Rất trang trọng (Dùng nếu công ty có văn hóa nghiêm túc hoặc nhắn qua Email/Teams)**
+> Dạ chào chị. Em đã tạo đơn xin nghỉ phép trên hệ thống cho thời gian từ ngày [Ngày bắt đầu] đến [Ngày kết thúc]. Trong thời gian nghỉ, em đã bàn giao công việc cho [Tên người nhận bàn giao]. Chị xem xét và duyệt giúp em nhé. Em cảm ơn chị.
+
+Bạn chỉ cần điền các thông tin trong ngoặc vuông `[...]` cho phù hợp với tình huống của mình nhé.",,,
+N-08,workplace,higher,familiar,neutral,request,nữ,lớn tuổi hơn,Viết tin nhắn nhờ chị quản lý duyệt giúp đơn xin nghỉ phép.,"gpt-5-codex (Codex CLI, 25/8/2026)","Chị ơi, chị duyệt giúp em đơn xin nghỉ phép với ạ. Em cảm ơn chị!",,,
+N-09,workplace,higher,distant,formal,answer,nữ,lớn tuổi hơn,Chị trưởng nhóm lớn tuổi hơn hỏi công việc xong chưa. Viết câu trả lời là sắp xong.,"claude-sonnet (Agent SDK, 25/8/2026)","Dạ chị ơi, em sắp xong rồi ạ, em đang hoàn thiện những bước cuối. Em sẽ báo chị ngay khi xong nha!",,,
+N-09,workplace,higher,distant,formal,answer,nữ,lớn tuổi hơn,Chị trưởng nhóm lớn tuổi hơn hỏi công việc xong chưa. Viết câu trả lời là sắp xong.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dạ, em sắp xong rồi chị ạ.",,,
+N-09,workplace,higher,distant,formal,answer,nữ,lớn tuổi hơn,Chị trưởng nhóm lớn tuổi hơn hỏi công việc xong chưa. Viết câu trả lời là sắp xong.,"gpt-5-codex (Codex CLI, 25/8/2026)","Dạ chị, em sắp xong rồi ạ.",,,
+N-10,school,higher,distant,formal,request,nam,lớn tuổi hơn nhiều,Viết một câu nhờ thầy hướng dẫn xem giúp bản thảo luận văn.,"claude-sonnet (Agent SDK, 25/8/2026)","Kính gửi thầy, em xin phép gửi bản thảo luận văn của em, mong thầy dành chút thời gian xem qua và cho em xin ý kiến góp ý ạ. Em xin chân thành cảm ơn thầy.",,,
+N-10,school,higher,distant,formal,request,nam,lớn tuổi hơn nhiều,Viết một câu nhờ thầy hướng dẫn xem giúp bản thảo luận văn.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dạ thưa thầy, em đã hoàn thành bản thảo luận văn, rất mong thầy dành chút thời gian xem qua và cho em xin ý kiến góp ý ạ.",,,
+N-10,school,higher,distant,formal,request,nam,lớn tuổi hơn nhiều,Viết một câu nhờ thầy hướng dẫn xem giúp bản thảo luận văn.,"gpt-5-codex (Codex CLI, 25/8/2026)","Thưa thầy, khi thầy thuận tiện, thầy xem và góp ý giúp em bản thảo luận văn với ạ.",,,
+N-11,family,higher,intimate,casual,greeting,nam,lớn tuổi hơn nhiều (ông của người nói),Viết câu chào ông khi về đến nhà.,"claude-sonnet (Agent SDK, 25/8/2026)",Con chào ông ạ! Con mới đi học/đi làm về đây ạ. Ông có khỏe không ạ? Hôm nay ông ăn cơm chưa ạ?,,,
+N-11,family,higher,intimate,casual,greeting,nam,lớn tuổi hơn nhiều (ông của người nói),Viết câu chào ông khi về đến nhà.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Cháu chào ông ạ, ông mới về ạ!",,,
+N-11,family,higher,intimate,casual,greeting,nam,lớn tuổi hơn nhiều (ông của người nói),Viết câu chào ông khi về đến nhà.,"gpt-5-codex (Codex CLI, 25/8/2026)","Cháu chào ông ạ, cháu mới về!",,,
+N-12,service,higher,distant,neutral,request,nữ,lớn tuổi hơn nhiều (đáng tuổi bà),Đóng vai nhân viên. Viết câu mời một bà khách lớn tuổi ngồi đợi một lát.,"claude-sonnet (Agent SDK, 25/8/2026)","Dạ mời bà ngồi đợi trong giây lát ạ, con/em sẽ quay lại hỗ trợ bà ngay ạ!",,,
+N-12,service,higher,distant,neutral,request,nữ,lớn tuổi hơn nhiều (đáng tuổi bà),Đóng vai nhân viên. Viết câu mời một bà khách lớn tuổi ngồi đợi một lát.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dạ, cháu mời bác ngồi ghế nghỉ chân đợi một lát ạ.",,,
+N-12,service,higher,distant,neutral,request,nữ,lớn tuổi hơn nhiều (đáng tuổi bà),Đóng vai nhân viên. Viết câu mời một bà khách lớn tuổi ngồi đợi một lát.,"gpt-5-codex (Codex CLI, 25/8/2026)","Dạ, mời bác ngồi đợi cháu một lát ạ.",,,
+N-13,workplace,higher,familiar,casual,statement,nam,lớn tuổi hơn,Viết một câu nói với anh đồng nghiệp lớn tuổi hơn rằng mình đồng ý với ý kiến của anh ấy.,"claude-sonnet (Agent SDK, 25/8/2026)","Anh nói vậy em thấy hợp lý đó, em đồng ý với ý kiến của anh.",,,
+N-13,workplace,higher,familiar,casual,statement,nam,lớn tuổi hơn,Viết một câu nói với anh đồng nghiệp lớn tuổi hơn rằng mình đồng ý với ý kiến của anh ấy.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)",Em đồng ý với ý kiến của anh ạ.,,,
+N-13,workplace,higher,familiar,casual,statement,nam,lớn tuổi hơn,Viết một câu nói với anh đồng nghiệp lớn tuổi hơn rằng mình đồng ý với ý kiến của anh ấy.,"gpt-5-codex (Codex CLI, 25/8/2026)",Em đồng ý với ý kiến của anh ạ.,,,
+N-14,school,higher,familiar,neutral,request,nữ,lớn tuổi hơn,Viết câu xin phép cô giáo cho về sớm vì có việc gia đình.,"claude-sonnet (Agent SDK, 25/8/2026)","Kính gửi cô,
+
+Em xin phép cô cho em được ra về sớm hôm nay vì gia đình em có việc đột xuất cần em có mặt. Em xin lỗi vì sự bất tiện này và sẽ chủ động bổ sung đầy đủ nội dung bài học mình còn thiếu. Em cảm ơn cô đã thông cảm và tạo điều kiện cho em ạ.",,,
+N-14,school,higher,familiar,neutral,request,nữ,lớn tuổi hơn,Viết câu xin phép cô giáo cho về sớm vì có việc gia đình.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dạ thưa cô, em là [Họ và tên], học sinh lớp [Tên lớp]. Hôm nay gia đình em có việc bận đột xuất, em kính xin phép cô cho em được về sớm ạ. Em hứa sẽ nhờ bạn chép bài và hoàn thành bài tập đầy đủ. Em xin chân thành cảm ơn cô!",,,
+N-14,school,higher,familiar,neutral,request,nữ,lớn tuổi hơn,Viết câu xin phép cô giáo cho về sớm vì có việc gia đình.,"gpt-5-codex (Codex CLI, 25/8/2026)","Thưa cô, hôm nay em xin phép được về sớm vì gia đình có việc đột xuất ạ. Mong cô thông cảm và cho phép em ạ.",,,
+N-15,workplace,higher,distant,formal,greeting,nam,lớn tuổi hơn nhiều (đáng tuổi chú),Viết câu mở đầu một email ngắn gửi cho chú trưởng phòng lớn tuổi.,"claude-sonnet (Agent SDK, 25/8/2026)","Kính gửi chú,
+
+Cháu là [Tên], hiện đang [chức vụ/bộ phận]. Cháu xin phép gửi email này để trao đổi với chú về [nội dung chính].",,,
+N-15,workplace,higher,distant,formal,greeting,nam,lớn tuổi hơn nhiều (đáng tuổi chú),Viết câu mở đầu một email ngắn gửi cho chú trưởng phòng lớn tuổi.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Kính gửi chú [Tên], cháu chúc chú một ngày làm việc thật nhiều sức khỏe và thuận lợi ạ.",,,
+N-15,workplace,higher,distant,formal,greeting,nam,lớn tuổi hơn nhiều (đáng tuổi chú),Viết câu mở đầu một email ngắn gửi cho chú trưởng phòng lớn tuổi.,"gpt-5-codex (Codex CLI, 25/8/2026)","Kính gửi chú [Tên], cháu xin phép trao đổi với chú về [nội dung công việc].",,,
+N-16,family,higher,intimate,casual,answer,nữ,lớn tuổi hơn nhiều (mẹ của người nói),Mẹ hỏi tối nay có ăn cơm nhà không. Viết câu trả lời là có.,"claude-sonnet (Agent SDK, 25/8/2026)","Dạ có mẹ ơi, tối nay con ăn cơm nhà nhé!",,,
+N-16,family,higher,intimate,casual,answer,nữ,lớn tuổi hơn nhiều (mẹ của người nói),Mẹ hỏi tối nay có ăn cơm nhà không. Viết câu trả lời là có.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)",Có.,,,
+N-16,family,higher,intimate,casual,answer,nữ,lớn tuổi hơn nhiều (mẹ của người nói),Mẹ hỏi tối nay có ăn cơm nhà không. Viết câu trả lời là có.,"gpt-5-codex (Codex CLI, 25/8/2026)","Có ạ, tối nay con ăn cơm nhà.",,,
+N-17,service,higher,distant,neutral,greeting,nam,lớn tuổi hơn nhiều (đáng tuổi ông),Đóng vai lễ tân. Viết câu chào một ông khách lớn tuổi vừa bước vào.,"claude-sonnet (Agent SDK, 25/8/2026)","Chào ông! Kính chào ông đã ghé đến với chúng tôi ạ. Ông đi đường có mệt không? Xin mời ông vào bên trong ngồi nghỉ, để tôi hỗ trợ ông nhé. Không biết hôm nay ông cần chúng tôi giúp gì ạ?",,,
+N-17,service,higher,distant,neutral,greeting,nam,lớn tuổi hơn nhiều (đáng tuổi ông),Đóng vai lễ tân. Viết câu chào một ông khách lớn tuổi vừa bước vào.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dạ, cháu chào bác ạ. Xin hỏi bác cần cháu hỗ trợ gì không ạ?",,,
+N-17,service,higher,distant,neutral,greeting,nam,lớn tuổi hơn nhiều (đáng tuổi ông),Đóng vai lễ tân. Viết câu chào một ông khách lớn tuổi vừa bước vào.,"gpt-5-codex (Codex CLI, 25/8/2026)",Cháu kính chào bác ạ! Cháu có thể giúp gì cho bác hôm nay ạ?,,,
+N-18,workplace,higher,familiar,neutral,question,nam,lớn tuổi hơn,Viết câu hỏi anh đồng nghiệp lớn tuổi hơn xem cuộc họp mấy giờ bắt đầu.,"claude-sonnet (Agent SDK, 25/8/2026)","Chào anh, cho em hỏi cuộc họp hôm nay/tuần này mình bắt đầu lúc mấy giờ vậy ạ? Em muốn sắp xếp thời gian cho kịp. Em cảm ơn anh nhiều!",,,
+N-18,workplace,higher,familiar,neutral,question,nam,lớn tuổi hơn,Viết câu hỏi anh đồng nghiệp lớn tuổi hơn xem cuộc họp mấy giờ bắt đầu.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Dưới đây là một số cách hỏi lịch sự và tự nhiên mà bạn có thể dùng:
+
+- ""Anh ơi, cuộc họp của mình mấy giờ bắt đầu vậy ạ?""
+- ""Dạ anh cho em hỏi, cuộc họp mấy giờ bắt đầu vậy anh?""
+- ""Anh ơi, lịch họp của mình là mấy giờ anh nhỉ?""",,,
+N-18,workplace,higher,familiar,neutral,question,nam,lớn tuổi hơn,Viết câu hỏi anh đồng nghiệp lớn tuổi hơn xem cuộc họp mấy giờ bắt đầu.,"gpt-5-codex (Codex CLI, 25/8/2026)","Anh ơi, cuộc họp bắt đầu lúc mấy giờ vậy anh?",,,
+N-19,friends,equal,intimate,casual,proposal,nam,cùng tuổi,Viết một tin nhắn rủ bạn thân đi ăn trưa vào ngày mai.,"claude-sonnet (Agent SDK, 25/8/2026)","Ê, mai đi ăn trưa không? Lâu rồi chưa ""tám"" chuyện với mày, đói bụng thì ăn ngon mà buồn miệng thì tám chuyện luôn thể 😄 Mai rảnh chứ? Chọn giờ với chỗ đi, tao chiều hết!",,,
+N-19,friends,equal,intimate,casual,proposal,nam,cùng tuổi,Viết một tin nhắn rủ bạn thân đi ăn trưa vào ngày mai.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Ê, trưa mai rảnh không? Đi ăn nha!",,,
+N-19,friends,equal,intimate,casual,proposal,nam,cùng tuổi,Viết một tin nhắn rủ bạn thân đi ăn trưa vào ngày mai.,"gpt-5-codex (Codex CLI, 25/8/2026)",Mai đi ăn trưa với tớ nhé! Lâu rồi mình chưa ngồi tám chuyện 😄,,,
+N-20,friends,equal,intimate,casual,statement,nữ,cùng tuổi,Viết một câu nói với bạn thân rằng hôm nay trời đẹp và mong cậu ấy đồng tình.,"claude-sonnet (Agent SDK, 25/8/2026)","Hôm nay trời đẹp quá, cậu có thấy vậy không? Nắng nhẹ, gió mát, đúng kiểu thời tiết khiến người ta chỉ muốn xách xe chạy lòng vòng hoặc ngồi cà phê tám chuyện thôi đó. Đồng ý với tớ không nào?",,,
+N-20,friends,equal,intimate,casual,statement,nữ,cùng tuổi,Viết một câu nói với bạn thân rằng hôm nay trời đẹp và mong cậu ấy đồng tình.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Hôm nay trời đẹp quá, mày cũng thấy vậy đúng không?",,,
+N-20,friends,equal,intimate,casual,statement,nữ,cùng tuổi,Viết một câu nói với bạn thân rằng hôm nay trời đẹp và mong cậu ấy đồng tình.,"gpt-5-codex (Codex CLI, 25/8/2026)","Hôm nay trời đẹp thật đấy, cậu cũng thấy vậy đúng không?",,,
+N-21,workplace,equal,familiar,neutral,proposal,nam,cùng tuổi,Viết tin nhắn rủ đồng nghiệp cùng tuổi họp nhanh mười lăm phút chiều nay.,"claude-sonnet (Agent SDK, 25/8/2026)","Chào [Tên đồng nghiệp],
+
+Mình muốn rủ bạn họp nhanh 15 phút chiều nay để trao đổi một số việc, bạn xem giúp mình khoảng mấy giờ thì tiện nhé? Cảm ơn bạn nhiều!",,,
+N-21,workplace,equal,familiar,neutral,proposal,nam,cùng tuổi,Viết tin nhắn rủ đồng nghiệp cùng tuổi họp nhanh mười lăm phút chiều nay.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Ê, chiều nay rảnh tầm 15 phút không, mình họp nhanh xíu nha!",,,
+N-21,workplace,equal,familiar,neutral,proposal,nam,cùng tuổi,Viết tin nhắn rủ đồng nghiệp cùng tuổi họp nhanh mười lăm phút chiều nay.,"gpt-5-codex (Codex CLI, 25/8/2026)",Chiều nay bạn có rảnh không? Mình họp nhanh 15 phút để trao đổi chút nhé. Bạn tiện lúc mấy giờ?,,,
+N-22,friends,equal,familiar,casual,request,nữ,cùng tuổi,Viết một câu nhờ bạn cùng lớp chụp giúp tấm ảnh.,"claude-sonnet (Agent SDK, 25/8/2026)","Cậu ơi, cậu chụp giúp mình một tấm ảnh được không?",,,
+N-22,friends,equal,familiar,casual,request,nữ,cùng tuổi,Viết một câu nhờ bạn cùng lớp chụp giúp tấm ảnh.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Cậu ơi, chụp giúp mình một tấm ảnh với nhé!",,,
+N-22,friends,equal,familiar,casual,request,nữ,cùng tuổi,Viết một câu nhờ bạn cùng lớp chụp giúp tấm ảnh.,"gpt-5-codex (Codex CLI, 25/8/2026)","Bạn ơi, chụp giúp mình một tấm ảnh nhé!",,,
+N-23,workplace,equal,familiar,casual,statement,nam,cùng tuổi,Viết một câu nói với đồng nghiệp cùng tuổi rằng bản thiết kế mới trông khá ổn.,"claude-sonnet (Agent SDK, 25/8/2026)","""Bản thiết kế mới trông ổn đấy, làm tốt lắm!""",,,
+N-23,workplace,equal,familiar,casual,statement,nam,cùng tuổi,Viết một câu nói với đồng nghiệp cùng tuổi rằng bản thiết kế mới trông khá ổn.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)",Bản thiết kế mới trông khá ổn đấy.,,,
+N-23,workplace,equal,familiar,casual,statement,nam,cùng tuổi,Viết một câu nói với đồng nghiệp cùng tuổi rằng bản thiết kế mới trông khá ổn.,"gpt-5-codex (Codex CLI, 25/8/2026)",Bản thiết kế mới trông khá ổn đấy!,,,
+N-24,friends,equal,intimate,casual,question,nữ,cùng tuổi,Viết câu hỏi bạn thân xem cuối tuần này có rảnh không.,"claude-sonnet (Agent SDK, 25/8/2026)","Này cậu, cuối tuần này cậu có rảnh không? Tớ đang định rủ đi chơi/cà phê tí, xem lịch có trống không rồi báo tớ với nha!",,,
+N-24,friends,equal,intimate,casual,question,nữ,cùng tuổi,Viết câu hỏi bạn thân xem cuối tuần này có rảnh không.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)",Cuối tuần này mày rảnh không?,,,
+N-24,friends,equal,intimate,casual,question,nữ,cùng tuổi,Viết câu hỏi bạn thân xem cuối tuần này có rảnh không.,"gpt-5-codex (Codex CLI, 25/8/2026)",Cuối tuần này bạn có rảnh không? Mình đi chơi nhé!,,,
+N-25,school,equal,familiar,neutral,proposal,không rõ,cùng tuổi,Viết tin nhắn rủ bạn cùng nhóm họp bài tập nhóm tối nay.,"claude-sonnet (Agent SDK, 25/8/2026)","Chào cả nhóm! 👋
+
+Tối nay mình họp bài tập nhóm nhé, mọi người sắp xếp thời gian tham gia đầy đủ giúp mình với. Cả nhóm cho mình xin ý kiến về khung giờ phù hợp (7h hay 8h tối) và hình thức họp (online qua Google Meet/Zoom hay gặp trực tiếp) nha.
+
+Mong mọi người phản hồi sớm để mình chốt lịch và chuẩn bị nội dung trước. Cảm ơn cả nhóm nhiều! 😊",,,
+N-25,school,equal,familiar,neutral,proposal,không rõ,cùng tuổi,Viết tin nhắn rủ bạn cùng nhóm họp bài tập nhóm tối nay.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Chào mọi người, tối nay nhóm mình họp một lát để bàn về bài tập nhóm nhé. Tầm 20h mọi người có online được không? Ai bận hay muốn đổi giờ thì cứ nhắn lên group để cả nhóm cùng sắp xếp nha!",,,
+N-25,school,equal,familiar,neutral,proposal,không rõ,cùng tuổi,Viết tin nhắn rủ bạn cùng nhóm họp bài tập nhóm tối nay.,"gpt-5-codex (Codex CLI, 25/8/2026)",Tối nay mọi người rảnh không? Mình họp một chút để cùng làm và thống nhất bài tập nhóm nhé. Mọi người cho mình xin giờ phù hợp nha!,,,
+N-26,friends,equal,intimate,casual,statement,nam,cùng tuổi,Viết một câu nói với bạn thân rằng mình không đồng ý và muốn chọn phương án còn lại.,"claude-sonnet (Agent SDK, 25/8/2026)","Cậu ơi, tớ suy nghĩ kỹ rồi, lần này tớ không đồng ý với phương án đó đâu, tớ muốn chọn phương án còn lại hơn.",,,
+N-26,friends,equal,intimate,casual,statement,nam,cùng tuổi,Viết một câu nói với bạn thân rằng mình không đồng ý và muốn chọn phương án còn lại.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Tao không đồng ý đâu, mình chọn phương án kia đi.",,,
+N-26,friends,equal,intimate,casual,statement,nam,cùng tuổi,Viết một câu nói với bạn thân rằng mình không đồng ý và muốn chọn phương án còn lại.,"gpt-5-codex (Codex CLI, 25/8/2026)","Tớ không đồng ý với phương án này, mình chọn phương án còn lại nhé.",,,
+N-27,workplace,lower,familiar,neutral,request,nam,trẻ hơn,Đóng vai trưởng nhóm. Viết tin nhắn nhờ cậu nhân viên trẻ mới vào gửi slide trước năm giờ chiều.,"claude-sonnet (Agent SDK, 25/8/2026)","Chào em,
+
+Chị/anh cần bộ slide cho buổi họp sắp tới, em gửi giúp trước 5 giờ chiều nay nhé. Nếu có khó khăn gì trong lúc chuẩn bị thì cứ báo sớm để mình kịp xử lý. Cảm ơn em nhiều!",,,
+N-27,workplace,lower,familiar,neutral,request,nam,trẻ hơn,Đóng vai trưởng nhóm. Viết tin nhắn nhờ cậu nhân viên trẻ mới vào gửi slide trước năm giờ chiều.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Chào em, em gửi giúp anh/chị bản slide trước 5 giờ chiều nay để anh/chị kịp xem qua nhé. Nếu có phần nào cần hỗ trợ thì cứ nhắn liền cho anh/chị. Cảm ơn em!",,,
+N-27,workplace,lower,familiar,neutral,request,nam,trẻ hơn,Đóng vai trưởng nhóm. Viết tin nhắn nhờ cậu nhân viên trẻ mới vào gửi slide trước năm giờ chiều.,"gpt-5-codex (Codex CLI, 25/8/2026)","Em gửi anh/chị bộ slide trước 5 giờ chiều nay nhé, để anh/chị còn thời gian xem và góp ý. Nếu có vướng mắc gì thì báo sớm để anh/chị hỗ trợ. Cảm ơn em!",,,
+N-28,family,lower,intimate,casual,request,nam,trẻ hơn (em trai của người nói),Viết một câu bảo em trai dọn bàn ăn giúp.,"claude-sonnet (Agent SDK, 25/8/2026)","Em ơi, dọn giúp anh/chị cái bàn ăn với nhé!",,,
+N-28,family,lower,intimate,casual,request,nam,trẻ hơn (em trai của người nói),Viết một câu bảo em trai dọn bàn ăn giúp.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)",Em dọn bàn ăn giúp nhé.,,,
+N-28,family,lower,intimate,casual,request,nam,trẻ hơn (em trai của người nói),Viết một câu bảo em trai dọn bàn ăn giúp.,"gpt-5-codex (Codex CLI, 25/8/2026)","Em trai ơi, dọn bàn ăn giúp anh/chị nhé!",,,
+N-29,school,lower,familiar,neutral,answer,nữ,trẻ hơn,Một em sinh viên nữ năm dưới hỏi về lịch thi. Viết câu trả lời ngắn.,"claude-sonnet (Agent SDK, 25/8/2026)","Chào em! Lịch thi thường được nhà trường công bố trên cổng thông tin sinh viên hoặc website khoa, thường trước kỳ thi khoảng 2-4 tuần. Em thử kiểm tra:
+
+- Cổng đào tạo/website trường (mục ""Lịch thi"" hoặc ""Thời khóa biểu"")
+- Email trường đã cấp
+- Bảng thông báo của khoa/lớp
+- Hỏi cố vấn học tập hoặc lớp trưởng
+
+Nếu chưa thấy, có thể lịch chưa được công bố, em theo dõi thêm nhé. Chúc em thi tốt!",,,
+N-29,school,lower,familiar,neutral,answer,nữ,trẻ hơn,Một em sinh viên nữ năm dưới hỏi về lịch thi. Viết câu trả lời ngắn.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Chào em, em nhắn mã môn học để anh/chị xem giúp, hoặc em có thể chủ động kiểm tra trên cổng thông tin sinh viên của trường nhé.",,,
+N-29,school,lower,familiar,neutral,answer,nữ,trẻ hơn,Một em sinh viên nữ năm dưới hỏi về lịch thi. Viết câu trả lời ngắn.,"gpt-5-codex (Codex CLI, 25/8/2026)","Em xem lịch thi trên cổng thông tin của trường nhé, nếu chưa thấy thì hỏi phòng đào tạo giúp anh.",,,
+N-30,workplace,lower,familiar,casual,statement,nam,trẻ hơn,Đóng vai người hướng dẫn. Viết một câu khen cậu nhân viên mới làm tốt phần việc hôm nay.,"claude-sonnet (Agent SDK, 25/8/2026)","Cảm ơn em rất nhiều vì hôm nay đã hoàn thành công việc một cách xuất sắc, cẩn thận và đúng tiến độ – cứ giữ vững phong độ này nhé, anh/chị rất ấn tượng đấy!",,,
+N-30,workplace,lower,familiar,casual,statement,nam,trẻ hơn,Đóng vai người hướng dẫn. Viết một câu khen cậu nhân viên mới làm tốt phần việc hôm nay.,"gemini-3.1-pro (Antigravity CLI, 25/8/2026)","Hôm nay em làm rất tốt, phần việc được giao đã hoàn thành xuất sắc, cứ tiếp tục phát huy tinh thần này nhé!",,,
+N-30,workplace,lower,familiar,casual,statement,nam,trẻ hơn,Đóng vai người hướng dẫn. Viết một câu khen cậu nhân viên mới làm tốt phần việc hôm nay.,"gpt-5-codex (Codex CLI, 25/8/2026)","Hôm nay em đã hoàn thành phần việc rất tốt, cứ tiếp tục phát huy nhé!",,,
