@@ -19,6 +19,7 @@ Vietnamese marks the social relationship between speaker and addressee in almost
 | `generation/README.md` | How the outputs were generated, including the one-line chatbot instructions given to two of the generators. |
 | `judge/prompt_template.txt` | The exact prompt given to the AI judge. |
 | `scripts/reproduce_tables.py` | Recomputes Tables 3–5 and the counts reported in Section 4.1 of the paper. |
+| `CHANGELOG.md` | Changes since release v1.0, and the two label decisions made by the curator. |
 
 ## Label set
 
@@ -57,10 +58,10 @@ The input file `Duyen-Pilot-Sheet.csv` has SHA-256 prefix `a43ced3301`; its mode
 
 ## How the labels were produced
 
-- **Curator.** A native Northern Vietnamese speaker and the first author wrote a free-text judgment for each item, with a correction where needed (`curator_note_vi`). An AI assistant converted these judgments into labels with a fixed rule: an output usable as written is `NONE`; a relational problem that must be fixed receives its type, or `OTHER`. The curator checked the result and decided the cases the rule left open.
+- **Curator.** A native Northern Vietnamese speaker and the first author wrote a free-text judgment for each item, with a correction where needed (`curator_note_vi`). An AI assistant converted these judgments into labels with a fixed rule: an output usable as written is `NONE`; a relational problem that must be fixed receives its type, or `OTHER`. The curator checked the result and decided the cases the rule left open. The rule left two items open, control C-01 and item N-02; the curator's decisions on them are recorded in `CHANGELOG.md`.
 - **Second annotator (A2).** A second native Northern Vietnamese speaker labeled the 30 items blind, seeing only the relationship description and the text. A2's free-text notes are not released.
 - **AI judge.** Claude through the Claude Agent SDK, alias `fable` resolved to `claude-fable-5`, one fresh context per item, run on 1 September 2026 with the prompt in `judge/prompt_template.txt`. The judge ran after A2's labels were collected and saw no human labels.
-- **Notes.** The curator's and the judge's notes are in Vietnamese. Two curator notes were reworded for publication to remove a pejorative term; their meaning and labels are unchanged.
+- **Notes.** The curator's and the judge's notes are in Vietnamese. Two curator notes were reworded for publication to remove a pejorative term; their meaning and labels are unchanged. On 16 November 2026 a dated addendum was appended to the curator's note for N-02; no label was changed.
 - **Scope.** Gold labels and corrections currently cover the 30-item subset. Labels for the remaining 101 outputs are in progress and will be added to this repository.
 
 ## License
